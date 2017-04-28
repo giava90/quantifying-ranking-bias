@@ -245,9 +245,9 @@ How can we quantify the difference between this vector and the ranking vector ob
 ### The Mahalanobis Distance
 The Mahalanobis Distance, $d_{\mathcal{M}}$, is a standard measure used in statistic that permits to quantify the difference between an observation and a distribution. Precisely, if we observer a vector $\mathbf{x}^{T}=(x_1, \dots,x_F)$, its $d_{\mathcal{M}}$ from a set of observations with mean $\vec{\mu}^{T}=(\mu_1, \dots ,\mu_F)$ is  
 
-$$
+\begin{equation}
 d_{\mathcal{M}}(\vec{x},\vec{\mu})=\sqrt{(\vec{x}-\vec{\mu})^{T} S^{-1}(\vec{x}-\vec{\mu})}
-$$
+\end{equation}
 
 where $S^{-1}$ is the inverse of the covariance matrix of the set of observations.
 Those people which have been working with metric spaces, rather than distributions, can intepret this measure as the distance between the observation and the expected vector in space where in a space where the metric is defined using the inverse of the covariance matrix of the distribution. To understand the role of this matrix think of a simple case where the covariance matrix have only diagonal elements: the bigger are these diagonal elments more scattered are the observations and the determinant represents how much volume the observations occupy in the space.
