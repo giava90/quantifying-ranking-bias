@@ -1,1 +1,1 @@
-# quantifying-ranking-bias
+# Quantifying ranking bias
