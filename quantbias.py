@@ -2,10 +2,10 @@ import numpy as np
 
 def Mahalanobis_distance(x, mu, M):
     """
-    Calculating the Mahalanobis distance between x and mu, MD(x,mu) in a space with metric M.
+    Calculating the Mahalanobis distance between x and mu, MD(x,mu), in a space with metric M.
 
     ------------PARAMETERS------------
-    @param simul : Number of simulations.
+    @param simul : Number of simulations
 
     @param x : First vector
     @param mu : Second vector, usually containing the expected values
@@ -20,15 +20,15 @@ def Mahalanobis_distance(x, mu, M):
   
 def multivariate_hypergeometric_Mahalanobis_distance(x, mu, m):
     """
-    Calculating the Mahalanobis distance between x and mu, MD(x,mu) in a metric space defined by a multivariate hypergeometric distribution defined using the vector m.
+    Calculating the Mahalanobis distance between x and mu, MD(x,mu), in a metric space defined by a multivariate hypergeometric distribution defined using the vector m.
 
     ------------PARAMETERS------------
-    @param simul : Number of simulations.
+    @param simul : Number of simulations
 
     @param x : First vector
     @param mu : Second vector, usually containing the expected values
-    @param m : Vector containing the number of items in each category.
-    @returns : The MD(x,mu) and a vector containg the contributions to the qaure of the MD(x,mu)
+    @param m : Vector containing the number of items in each category
+    @returns : The MD(x,mu) and a vector containg the contributions to the square of the MD(x,mu)
     ----------------------------------
     """
     MD=[]
